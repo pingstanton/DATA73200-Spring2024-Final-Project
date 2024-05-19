@@ -1,0 +1,250 @@
+/* boilerplate styles */
+
+body {
+	margin: 0; padding: 30px 40px 300px 30px; 
+	background-color: #ffffff;
+	font: normal 1.0em/1.2em arial, helvetica, sans-serif;
+	color: #000;
+	text-align: left;
+	}
+
+a:link {color: #84bf33; text-decoration: none; border-bottom: 0px solid #fff;}
+a:visited {color: #84bf33; text-decoration: none; border-bottom: 0px solid #fff;}
+a:hover {color: #669900; text-decoration: none; border-bottom: 0px solid #CC6633;}
+a:active {color: #84bf33; text-decoration: none; border-bottom: 0px solid #fff;}
+
+h1 {margin: 0; padding: 0; font: bold 2.5em/1.0em Arial, Helvetica, sanserif; font-weight: 900; letter-spacing: -1px;}
+h2 {margin: 0; padding: 0 0 5px 0; font: bold 1.4em/1.0em Arial, Helvetica, sanserif;}
+h3 {margin: 0; padding: 0; font: bold 1.2em/1.0em arial, helvetica, sans-serif; }
+h4 {margin: 0; padding: 0; font: bold 1.0em/1.0em arial, helvetica, sans-serif; }
+
+p {font-size: 1em;}
+
+hr {
+    margin: 10px 0 5px 0;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.33), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.33), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.33), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.33), rgba(0,0,0,0)); 
+}
+
+.genreLabel {pointer-events: none;}
+
+.ath {clear: both;
+	margin-right:auto; margin-left:auto; margin-top: 10px; margin-bottom: 10px;
+	padding: 30px 15px 20px 15px; width: 95%; 
+	font: bold 1.0em/1.6em arial, helvetica, sans-serif;}
+
+/* content blocks on page */
+
+#introblock {
+    position: relative;
+	margin: 0; padding: 0;
+	height: 200px;
+	font: bold 1.4em/1.2em arial, helvetica, sans-serif;
+	color: #fff;
+	text-align: left;
+	background-image: url("momaNoahKalina.jpg");
+	background-position: center center;
+	background-color: #cccccc;
+}
+#calltoaction {
+    position: absolute;
+    top: 0;
+	margin: 0; padding: 7px 10px 5px 10px;
+	font: bold 22px/1.2em arial, helvetica, sans-serif;
+	color: #fff;
+	text-align: left;
+	background-color: rgb(0 0 0 / 50%);
+}
+#photocredit {
+    position: absolute;
+    bottom: 0; width: 100%;
+	margin: 0; padding: 5px 35% 5px 0;
+	font: bold 10px/1.2em arial, helvetica, sans-serif;
+	color: #000;
+	text-align: right;
+	background-color: rgb(255 255 255 / 50%);
+}
+
+#photocredit a {padding: 0 3px; background-color: rgb(255 255 255 / 70%)}
+
+
+/* top page elements and "Click on timeline..." parts */
+
+#moma_logo {width: 200px; margin: 0 0 25px 0; padding: 0;}
+
+#topnavWide {
+	float: right; width: 70%;
+	margin: 0; padding: 6px 0 0 0;
+	font: bold 1.3em/1.3em Arial, Helvetica, sanserif; font-weight: 900; letter-spacing: -1px;
+	color: #333;
+	text-align: right;
+	}
+
+#topnavNarrow {display: none;}
+#topnavWide a {padding: 0 10px;}
+#topnavNarrow a {padding: 0 10px;}
+#clickhere {float: right; margin: 0; padding: 5px 40px; font: bold 12px/1.0em arial, helvetica, sans-serif; color: #999;}
+
+#explainer {margin: 5px 0 0 0; padding: 2px 0 10px 0; width: 100%;
+	font: normal 1.1em/1.2em Arial, Helvetica, sanserif;
+	color: #666;
+	text-align: center;
+	}
+
+/* container for the genre bars svg */
+
+svg {border: 1px solid #ffffff;}
+#genrenav {width: 100%;
+	margin: 0; padding: 0;
+	text-align: center;
+	}
+
+/* art display area */
+
+#artdisplay {
+	float: right;
+	width: 49%; height: auto;
+	margin; 0 0 20px 0; padding: 10px 0;
+	text-align: center;
+	}
+
+/* genre info and gallery card display area */
+
+#gallerycard {
+	float: left;
+	width: 47%; height: auto;
+	margin; 0 0 20px 0; padding: 15px 0 0 25px;
+	text-align: left;
+	}
+
+#genreTitle {
+	margin: 0 0 5px 0; padding: 0; 
+	font: bold 2.2em/1.0em Arial, Helvetica, sanserif;
+	color: #000;
+	}
+
+#genreYear {
+	margin: 0 0 5px 0; padding: 0; 
+	font: normal 1.5em/1.0em Arial, Helvetica, sanserif;
+	color: #000;
+	}
+
+#genreKeywords {
+	margin: 0 0 20px 0; padding: 0; 
+	font: bold 0.9em/1.2em Arial, Helvetica, sanserif;
+	color: #999;
+	}
+
+#artworkTitle {
+	margin: 0 0 5px 0; padding: 0; 
+	font: bold 1.5em/1.0em Arial, Helvetica, sanserif;
+	color: #000;
+	text-align: right;
+	}
+
+#artistName {
+	margin: 0 0 5px 0; padding: 0; 
+	font: normal 1.3em/1.0em Arial, Helvetica, sanserif;
+	color: #000;
+	text-align: right;
+	}
+
+#artistBio {
+	margin: 0 0 10px 0; padding: 0; 
+	font: normal 1.0em/1.0em Arial, Helvetica, sanserif;
+	color: #000;
+	text-align: right;
+	}
+
+#artworkMore {
+	margin: 0 0 5px 0; padding: 0; 
+	font: bold 0.8em/1.4em Arial, Helvetica, sanserif;
+	color: #666;
+	text-align: right;
+	}
+
+#genresummary {
+	margin: 20px 0 0 0; padding: 0; 
+	font: normal 0.9em/1.2em Arial, Helvetica, sanserif;
+	color: #333;
+	text-align: left;
+	}
+
+/* container for excerpts from MoMA.org */
+#aboutModernArt {
+	clear: both;
+	margin-right:auto; margin-left:auto; margin-top: 20px; margin-bottom: 10px;
+	padding: 30px 15px 0 15px; width: 95%;
+	-webkit-column-count: 2; 
+	-moz-column-count: 2; 
+	column-count: 2;
+	-webkit-column-gap: 40px; 
+	-moz-column-gap: 40px; 
+	column-gap: 40px;
+	text-align: left;
+}
+
+.set {margin: 0; padding: 0;
+	break-inside: avoid-column;
+	-webkit-column-break-inside: avoid;
+	}
+
+blockquote {
+	margin: 0; padding: 15px 20px; 
+	font-size: 0.9em;
+	background-color: #f0f0f0;
+	}
+
+#aboutThisProject {
+	clear: both;
+	margin-right:auto; margin-left:auto; margin-top: 10px; margin-bottom: 10px;
+	padding: 30px 15px 20px 15px; width: 95%;
+	-webkit-column-count: 2; 
+	-moz-column-count: 2; 
+	column-count: 2;
+	-webkit-column-gap: 40px; 
+	-moz-column-gap: 40px; 
+	column-gap: 40px;
+	text-align: left;
+}
+
+/* some responsive design considerations */
+
+@media (max-width: 600px) {
+
+	#aboutModernArt {
+	-webkit-column-count: 1; 
+	-moz-column-count: 1; 
+	column-count: 1;
+	}
+
+	#moma_logo {
+	width: 75%; margin: 0 0 15px 0; padding: 0;
+	}
+
+	#topnavWide {display: none;}
+
+} 
+
+/* legacy code for displaying the data source as a table on the page via D3.js */
+
+#rawData {margin: 100px 0 0 0; padding: 0;}
+#rawData h3 {color: #666; font: bold 0.8em/1.0em arial, helvetica, sans-serif;}
+
+table {margin: 10px 0; padding: 0; border-collapse: collapse;}
+th, td {
+	padding: 4px 8px; 
+	border: 1px solid #dddddd;
+	font: normal 0.9em/1.2em arial, helvetica, sans-serif;
+	text-align: left;
+    }
+th {font-weight: bold; background-color: #dddddd;}
+/* a better way to alternate row shading found on Stack Overflow */
+tr:nth-child(odd) {background-color: #ffffff;}
+tr:nth-child(even) {background-color: #eeeeee;}
+
+
